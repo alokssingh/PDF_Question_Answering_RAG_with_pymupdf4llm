@@ -9,8 +9,6 @@ PDF_Question_Answering_RAG_with_pymupdf4llm
  │── 📜 README.md # Project documentation 
  │── 📜 requirements.txt # Required dependencies 
  │── 📂 data/ # Folder containing PDF documents and text files 
- │── 📂 notebooks/ # Jupyter Notebooks for experimentation 
- │── 📂 src/ # Source code directory
  │── 📜 main.py # Main script for running the pipeline 
  │── 📜 QA_without_runnable_ollama.py # Question-answering model logic 
  │── 📜 multi_column.py # Handles multi-column text extraction from PDFs 
@@ -18,9 +16,6 @@ PDF_Question_Answering_RAG_with_pymupdf4llm
  │── 📜 pdf_downloader.py # Script to download PDFs from URLs 
  │── 📜 text_downloader.py # Extracts text and metadata from web pages  
  │── 📜 text_scrape.py # Web scraping logic 
- │── 📂 models/ # Any saved models or vector databases 
- │── 📂 outputs/ # Folder to store processed results 
- │── 📂 tests/ # Unit tests for different modules 
  │── 📜 .gitignore # Git ignore file
 
 ```
