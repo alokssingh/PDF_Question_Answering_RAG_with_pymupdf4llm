@@ -104,18 +104,13 @@ def main(file_path):
             #Extract PDF links    
             #pdf_links = df_links[df_links['Link'].str.endswith('.pdf')]['Link'].tolist()
             print("Separating pdf and non pdf links")
-            print(df_links['Links'])
             pdf_links, non_pdf_links = check_pdf_links(df_links['Links'].tolist())
-            #print(pdf_links)
-            #print(non_pdf_links)
             
             print("download pdf start")           
             download_pdfs(pdf_links, folder_path)
             print("download pdf completed")
             
-            
             #Extract non-PDF links
-            #non_pdf_links = df_links[~df_links['Link'].str.endswith('.pdf')]['Link'].tolist()
             print("Trying PDF download for non pdf pages")
             download_pdfs_4_non_pdf_page(non_pdf_links, folder_path)
 
