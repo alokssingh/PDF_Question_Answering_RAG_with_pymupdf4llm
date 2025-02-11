@@ -3,6 +3,13 @@
 ## 📌 Project Overview
 This repository implements **Retrieval-Augmented Generation (RAG)** using **pymupdf4llm** for extracting text from PDFs, and leverages **ChromaDB** & **FAISS** as vector databases for efficient retrieval. The **Ollama** LLM is used for intelligent responses based on retrieved information.
 
+----
+PDF_Question_Answering_RAG_with_pymupdf4llm/ │── 📜 README.md # Project documentation │── 📜 requirements.txt # Required dependencies │── 📂 data/ # Folder containing PDF documents and text files │── 📂 notebooks/ # Jupyter Notebooks for experimentation │── 📂 src/ # Source code directory │ │── 📜 main.py # Main script for running the pipeline │ │── 📜 QA_without_runnable_ollama.py # Question-answering model logic │ │── 📜 multi_column.py # Handles multi-column text extraction from PDFs │ │── 📜 google_search.py # Google search utility │ │── 📜 pdf_downloader.py # Script to download PDFs from URLs │ │── 📜 text_downloader.py # Extracts text and metadata from web pages │ │── 📜 text_scrape.py # Web scraping logic │── 📂 models/ # Any saved models or vector databases │── 📂 outputs/ # Folder to store processed results │── 📂 tests/ # Unit tests for different modules │── 📜 .gitignore # Git ignore file
+
+
+---
+
+
 ---
 
 ## 🛠️ Key Features
