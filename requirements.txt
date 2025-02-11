@@ -1,0 +1,10 @@
+news-please==1.5.43
+pandas==2.0.3
+requests==2.31.0
+beautifulsoup4==4.12.2
+pymupdf==1.23.6
+pymupdf4llm==0.0.5
+selenium==4.16.0
+webdriver-manager==4.0.1
+google-search-results==2.4.2
+lxml==4.9.3
