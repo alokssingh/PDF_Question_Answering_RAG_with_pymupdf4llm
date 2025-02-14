@@ -52,9 +52,6 @@ def get_text_chunks(text, chunk_size=1000, chunk_overlap=20):
     headers_to_split_on=headers_to_split_on, strip_headers=False
     )
     md_header_splits = markdown_splitter.split_text(text)
-    
-    
-    #text_splitter = RecursiveCharacterTextSplitter(chunk_size=chunk_size, chunk_overlap=chunk_overlap)
     return md_header_splits
 
 
