@@ -312,7 +312,7 @@ def main(folder_path):
 
 
     #100
-    for i in range(24,25):#49,50
+    for i in range(len(subfolders)):
         subfolder = subfolders[i]        
 
         # Get all files in the current subfolder
